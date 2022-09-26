@@ -1,0 +1,92 @@
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .avatar {
+    display: none;
+  }
+
+  header {
+    height: 95vh;
+  }
+
+  .header-container {
+    padding-top: 30px;
+  }
+  body {
+    width: 992px;
+  }
+
+  /* Phần 2 */
+  .part2 {
+    display: grid;
+    grid-template-columns: 55% 45%;
+  }
+  .info {
+    padding-right: 35px;
+  }
+
+  /* Phần 3 */
+  .part3 {
+    display: grid;
+    grid-template-columns: 48% 48%;
+    grid-template-rows: 50% 50%;
+    column-gap: 20px;
+    margin-bottom: 200px;
+    padding-right: 20px;
+  }
+
+  .circle1::after {
+    top: 13px;
+    position: absolute;
+  }
+  .circle2::before {
+    top: 414px;
+    position: absolute;
+  }
+
+  .cir2::after {
+    top: 207px;
+    position: absolute;
+  }
+
+  .cir3::after {
+    top: 228px;
+    position: absolute;
+  }
+
+  .prt4 {
+    display: grid;
+    margin-top: 650px;
+    column-gap: 10px;
+  }
+
+  /* Chứng chỉ */
+  .part4 {
+    margin-top: 50px;
+    margin-bottom: 60px;
+  }
+  .cert {
+    display: inline-block;
+  }
+  .text {
+    padding-top: 10px;
+    padding-left: 10px;
+    line-height: 0.5;
+  }
+  #item2 {
+    padding-left: 20px;
+  }
+  #full {
+    line-height: 1.7;
+  }
+
+  /* Phần 5 */
+  .prt5 {
+    padding-right: 40px;
+  }
+  .part5 {
+    column-gap: 10px;
+    grid-template-columns: 31% 31% 31%;
+  }
+  .des2 {
+    padding-left: 10px;
+  }
+}
